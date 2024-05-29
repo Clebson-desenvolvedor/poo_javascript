@@ -59,7 +59,7 @@ export class PersonagemView {
             <h4 class="vida">${personagem.vida}</h4>
         </div>
         `
-        /*const containerLevel = personagemLI.querySelector('.level')
+        const containerLevel = personagemLI.querySelector('.level')
         containerLevel.onclick = (evt) => {
             evt.stopPropagation()
     
@@ -68,7 +68,7 @@ export class PersonagemView {
             if (evt.target.classList.contains('aumentar-level')) personagem.aumentarLevel()
     
             this.render()
-        }*/
+        }
     
     
         personagemLI.onclick = () => {
